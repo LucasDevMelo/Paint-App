@@ -6,13 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="@drawable/toolbar_background"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/redColor"
+            android:background="@drawable/red_background"
+            android:layout_width="50dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"/>
+
+        <ImageButton
+            android:id="@+id/blueColor"
+            android:background="@drawable/blue_background"
+            android:layout_width="50dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"/>
+
+        <ImageButton
+            android:id="@+id/blackColor"
+            android:background="@drawable/black_background"
+            android:layout_width="50dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"/>
+
+        <ImageButton
+            android:id="@+id/whiteColor"
+            android:background="@drawable/white_background"
+            android:layout_width="50dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
