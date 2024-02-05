@@ -13,3 +13,4 @@ Galeria Integrada: Salve, compartilhe e reviva suas criações diretamente da ga
 
 Para Artistas de Todas as Idades:
 Seja você um artista profissional ou alguém que está apenas começando a explorar o mundo da arte digital, o MeuPaint oferece uma plataforma acessível e envolvente para todos. Desenvolva suas habilidades artísticas, crie momentos memoráveis e compartilhe suas obras-primas com amigos e familiares.
+![983shots_so](https://github.com/LucasDevMelo/Paint-App/assets/110427652/836460fa-71e9-4125-9293-b7ca40613e7a)
